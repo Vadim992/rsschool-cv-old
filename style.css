@@ -1,2 +1,156 @@
-Vadim
-Pushtakov
+html {
+    scroll-behavior: smooth; 
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
+  }
+.header { 
+  background-color: #065d06;
+}
+
+.footer {
+  background-color: #065d06;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+
+   body div {
+  justify-content:space-between ;
+}
+
+   main div {
+    justify-content:space-between;
+   }
+
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    color: #f0ffff;
+    text-decoration: none;
+    transition: .3s;
+  }
+  .nav-link:hover {
+    color: #79970e;
+  }
+ 
+  .year {
+    color: #f0ffff;
+  }
+
+  .link-contact {
+    color: #80c610;
+    text-decoration: none;
+    transition: .5s;
+  }
+
+  .link-contact:hover {
+    color: #e60f0f;
+  }
+  
+  .skills-courses {
+    color: #80c610;
+  }
+
+  ul.skills {
+    list-style: '\2610';
+  }
+  ul.skills li {
+    padding-left: 5px;
+  }
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+  
+  .section {
+    width: 50%;
+  }
+  
+  #profile {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+
+  .section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #829985;
+  }
+
+  .section-profile {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    margin-bottom: 25px;
+  }
+
+  #profile p {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+
+   .footer div.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .circle {
+    list-style-type: circle;
+  }
+
+  .square {
+    list-style-type: square;
+  }
+
+.image-profile {
+  border-radius: 50%;
+  text-align: left;
+  float: left;
+}
+
+.image-logo {
+  width: 100px;
+  height: 100px;
+}
+
